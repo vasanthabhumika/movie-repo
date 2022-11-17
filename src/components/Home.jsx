@@ -14,8 +14,6 @@ function Home() {
   useEffect(() => {
     async function getMovieListData() {
       const response = await getMovieList();
-      console.log(response, "data");
-      // console.log(response.data.movies, "...");
       if (response.data.movies && response.status === 200) {
         setMovieList(response.data.movies);
       } else {
@@ -91,7 +89,6 @@ function Home() {
                         <div className="card-casts">
                         <b>Genres:</b>&nbsp;<span>{moviesObj.genres.join(", ")}</span>
                         </div>
-                      {/* <a class="btn btn-primary">Go somewhere</a> */}
                     </div>
                   </div>
                 </div>

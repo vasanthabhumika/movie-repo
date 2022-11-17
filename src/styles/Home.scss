@@ -1,57 +1,39 @@
-.movie-main-head{
-    background-color: darkblue;
-    padding-left: 40px;
-    padding-right: 40px;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-between;
+.movie-main-head {
+  background-color: darkblue;
+  padding-left: 40px;
+  padding-right: 40px;
 
-    .movie-text-head{
-      font-size: 50px;
-      color: white;
-      text-transform: capitalize;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-weight: 600;
-      margin-top: 30px;
-      line-height: 1.8;
-    }
+  .movie-text-head {
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    line-height: 1.8;
+  }
 
-    #myInput {
-      background-image: url('../images/search-icon.png');
-      // background-position: 10px 12px;
-      // background-repeat: no-repeat;
-      // width: 100%;
-      // font-size: 16px;
-      // padding: 12px 20px 12px 40px;
-      // border: 1px solid #ddd;
-      // margin-bottom: 12px;
-      background-position: 5px 9px;
-      background-repeat: no-repeat;
-      width: 100%;
-      font-size: 18px;
-      padding: 11px 20px 12px 48px;
-      border: 1px solid #ddd;
-      margin-bottom: 12px;
-    }
-
+  #myInput {
+    background-image: url("../images/search-icon.png");
+    background-position: 5px 9px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 18px;
+    padding: 11px 20px 12px 48px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
 }
 
-// .card-main{
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-// }
-
-.card-text{
+.card-text {
   width: 300px;
-  height: auto; 
-  white-space: nowrap; 
+  height: auto;
+  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
-.card-text:hover{
+.card-text:hover {
   text-overflow: none;
   white-space: normal;
-  // overflow: auto;
 }
-
